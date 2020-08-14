@@ -1,10 +1,3 @@
-import * as React from 'react'
-import styles from './styles.module.css'
-
-interface Props {
-  text: string
-}
-
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example banana: {text}</div>
-}
+export * from './components'
+export * from './typeHelpers'
+export * from './theme'

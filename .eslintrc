@@ -6,7 +6,8 @@
     "plugin:prettier/recommended",
     "prettier/standard",
     "prettier/react",
-    "plugin:@typescript-eslint/eslint-recommended"
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
   ],
   "env": {
     "node": true
@@ -29,6 +30,17 @@
     "react/jsx-handler-names": 0,
     "react/jsx-fragments": 0,
     "react/no-unused-prop-types": 0,
-    "import/export": 0
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "import/export": 0,
+    "@typescript-eslint/member-delimiter-style": ["error", {
+      "multiline": {
+        "delimiter": "none",
+        "requireLast": true
+      },
+      "singleline": {
+        "delimiter": "semi",
+        "requireLast": false
+      }
+    }]
   }
 }
