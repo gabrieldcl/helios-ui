@@ -27,7 +27,7 @@ export type Border = {
   width: string
 }
 
-export type Text = {
+export type TextStyles = {
   fontSize: string
   fontFamily: string
   fontWeight: string
@@ -204,7 +204,7 @@ export type Theme = {
     label: {
       margin: Margin
       padding: Padding
-      text: Text
+      text: TextStyles
     }
     padding: Padding
     margin: Margin
@@ -284,7 +284,7 @@ export type Theme = {
       textColor: string
       borderColor: string
     }
-    text: Text & { textAlign: string }
+    text: TextStyles & { textAlign: string }
   }
   checkbox: {
     container: {
