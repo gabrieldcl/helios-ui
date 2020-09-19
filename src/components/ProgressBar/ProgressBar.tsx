@@ -3,7 +3,7 @@ import {
   ComponentPropsWithoutOmit,
   StyledProps,
   PickDefaultProps
-} from '../types'
+} from '../../typeHelpers'
 import { ProgressBarContainer, ProgressBarFiller } from './components'
 import { CSSObject } from 'styled-components'
 

@@ -44,7 +44,7 @@ const TextAreaComponent: React.FC<StyledProps<TextAreaProps, 'textarea'>> = (
   }
 
   return (
-    <>
+    <React.Fragment>
       <InputContainer error={error || ''}>
         <StyledTextArea
           error={error || ''}
@@ -57,7 +57,7 @@ const TextAreaComponent: React.FC<StyledProps<TextAreaProps, 'textarea'>> = (
         </Label>
       </InputContainer>
       {props.error && <Error size='small'>{props.error}</Error>}
-    </>
+    </React.Fragment>
   )
 }
 

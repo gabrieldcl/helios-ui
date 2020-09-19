@@ -40,7 +40,7 @@ const InputComponent: React.FC<StyledProps<InputProps, 'input'>> = (props) => {
   }
 
   return (
-    <>
+    <React.Fragment>
       <InputContainer error={error}>
         <StyledInput ref={ref} focus={isFocused} {...props} />
         <Label
@@ -52,7 +52,7 @@ const InputComponent: React.FC<StyledProps<InputProps, 'input'>> = (props) => {
         </Label>
       </InputContainer>
       {props.error && <Error size='small'>{props.error}</Error>}
-    </>
+    </React.Fragment>
   )
 }
 

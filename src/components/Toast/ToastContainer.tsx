@@ -8,7 +8,7 @@ import {
   StyledToastMessage,
   StyledToastTitle
 } from './components'
-import { Box } from '../'
+import { Box } from '../../components/Box'
 
 type ToastInnerContainerProps = {
   position: ToastData['position']

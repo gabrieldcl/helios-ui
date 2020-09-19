@@ -30,5 +30,5 @@ export const WeekDayList = (props: WeekDayListProps) => {
     ))
   }, [weekDays, useShortNotation])
 
-  return <>{daysList}</>
+  return <React.Fragment>{daysList}</React.Fragment>
 }

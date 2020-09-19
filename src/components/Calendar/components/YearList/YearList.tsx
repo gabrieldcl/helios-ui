@@ -55,5 +55,5 @@ export const YearList = (props: YearListProps) => {
     }
   )
 
-  return <>{yearList}</>
+  return <React.Fragment>{yearList}</React.Fragment>
 }

@@ -78,5 +78,5 @@ export const DaysList = (props: DaysListProps) => {
     return <tr key={`${d}_${i}`}>{d}</tr>
   })
 
-  return <>{daysList}</>
+  return <React.Fragment>{daysList}</React.Fragment>
 }

@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { Calendar, TextInput } from '../'
+import { Calendar } from '../../components/Calendar'
+import { TextInput } from '../../components/TextInput'
 import { DatePickerContainer, CalendarContainer } from './components'
 import { CSSObject } from 'styled-components'
 import { ComponentProps, StyledProps } from '../../typeHelpers'

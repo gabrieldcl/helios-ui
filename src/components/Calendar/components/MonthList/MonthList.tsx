@@ -37,5 +37,5 @@ export const MonthList = (props: MonthListProps) => {
     }
   )
 
-  return <>{monthList}</>
+  return <React.Fragment>{monthList}</React.Fragment>
 }

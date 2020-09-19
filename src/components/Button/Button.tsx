@@ -38,26 +38,26 @@ const ButtonComponent: React.FC<StyledProps<ButtonProps, 'button'>> = (
   const handleInvertIcon = () => {
     if (props.invert) {
       return (
-        <>
+        <React.Fragment>
           {props.children}
           {props.icon && (
             <IconContainer invert={props.invert || DEFAULT_PROPS.invert}>
               {props.icon}
             </IconContainer>
           )}
-        </>
+        </React.Fragment>
       )
     }
 
     return (
-      <>
+      <React.Fragment>
         {props.icon && (
           <IconContainer invert={props.invert || DEFAULT_PROPS.invert}>
             {props.icon}
           </IconContainer>
         )}
         {props.children}
-      </>
+      </React.Fragment>
     )
   }
 
