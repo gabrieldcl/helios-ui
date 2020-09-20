@@ -15,13 +15,13 @@ export const ToastProvider: React.FC = (props) => {
 
   const createToast = (params: CreateToastParams) => {
     const shouldAnimateOnClose =
-      params.animateOnClose ?? theme.toast.shouldAnimateOnClose
+      !!params.animateOnClose || !!theme.toast.shouldAnimateOnClose
     const shouldAnimateOnOpen =
-      params.animateOnOpen ?? theme.toast.shouldAnimateOnOpen
+      !!params.animateOnOpen || !!theme.toast.shouldAnimateOnOpen
     const closeAnimationTime =
-      params.closeAnimationTime ?? theme.toast.closeAnimationTime
+      params.closeAnimationTime || theme.toast.closeAnimationTime
     const openAnimationTime =
-      params.openAnimationTime ?? theme.toast.openAnimationTime
+      params.openAnimationTime || theme.toast.openAnimationTime
 
     const nextToastId = lastToastId + 1
     const newToast: ToastData = {
