@@ -13,15 +13,15 @@ npm install --save helios-ui
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React from 'react'
+import { Box } from 'helios-ui'
 
-import MyComponent from 'helios-ui'
-import 'helios-ui/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const Example: React.FC = () => {
+  return (
+    <Box>
+      Hello world!
+    </Box>
+  )
 }
 ```
 
