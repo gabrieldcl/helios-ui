@@ -1,6 +1,6 @@
 # helios-ui
 
-> A Styled-components based library
+> A Styled-components based library with theme support. The theme
 
 [![NPM](https://img.shields.io/npm/v/helios-ui.svg)](https://www.npmjs.com/package/helios-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -24,6 +24,9 @@ const Example: React.FC = () => {
   )
 }
 ```
+
+## To do list
+- 
 
 ## License
 
