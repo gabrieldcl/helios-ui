@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 import { ImageProps } from './Image'
-import { ThemedProps } from '../../theme'
+import { ThemedProps } from '../../themeTypes'
 
 type ThemedStyledImageProps = ThemedProps<ImageProps>
 

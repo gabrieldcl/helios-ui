@@ -1,5 +1,5 @@
 import React from 'react'
-import { ToastStatuses } from '../../theme'
+import { ToastStatuses } from '../../themeTypes'
 
 export type ToastData = {
   id: number

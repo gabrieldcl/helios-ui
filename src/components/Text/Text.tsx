@@ -1,7 +1,7 @@
 import React, { memo, ReactNode } from 'react'
 import { StyledText } from './StyledText'
 import { PickDefaultProps } from '../../typeHelpers'
-import { Sizes } from '../../theme'
+import { Sizes } from '../../themeTypes'
 import { CSSObject } from 'styled-components'
 
 export interface TextProps {

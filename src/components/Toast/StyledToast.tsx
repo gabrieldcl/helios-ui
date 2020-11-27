@@ -1,5 +1,5 @@
 import styled, { css, keyframes } from 'styled-components'
-import { ThemedProps } from '../../theme'
+import { ThemedProps } from '../../themeTypes'
 import { ToastProps } from './Toast'
 
 const FadeIn = keyframes`

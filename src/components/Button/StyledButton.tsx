@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 import { ButtonProps } from './Button'
-import { ThemedProps } from '../../theme'
+import { ThemedProps } from '../../themeTypes'
 import { darken } from 'polished'
 
 type ThemedStyledButtonProps = ThemedProps<ButtonProps>

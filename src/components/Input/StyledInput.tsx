@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 import { InputProps } from './Input'
-import { ThemedProps } from '../../theme'
+import { ThemedProps } from '../../themeTypes'
 
 // TODO: Add to theme
 

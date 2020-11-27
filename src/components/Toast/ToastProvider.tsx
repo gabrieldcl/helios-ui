@@ -5,7 +5,7 @@ import {
   CreateToastParams,
   ToastContextProviderValue
 } from './ToastContext'
-import { Theme } from '../../theme'
+import { Theme } from '../../themeTypes'
 import { ThemeContext } from 'styled-components'
 
 export const ToastProvider: React.FC = (props) => {

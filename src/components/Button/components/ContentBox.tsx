@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { ThemedProps, ButtonSizeKeys } from '../../../theme'
+import { ThemedProps, ButtonSizeKeys } from '../../../themeTypes'
 
 type ContentBoxProps = {
   size: ButtonSizeKeys

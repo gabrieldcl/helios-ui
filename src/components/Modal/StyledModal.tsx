@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { ThemedProps } from '../../theme'
+import { ThemedProps } from '../../themeTypes'
 import { ModalProps } from './Modal'
 
 export type ThemedModalProps = Pick<ThemedProps<ModalProps>, 'removePadding'>

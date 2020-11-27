@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Box } from '../../../Box'
 import { OptionProps } from './Option'
-import { ThemedProps } from '../../../../theme'
+import { ThemedProps } from '../../../../themeTypes'
 
 type ThemedStyledOptionProps = ThemedProps<OptionProps>
 

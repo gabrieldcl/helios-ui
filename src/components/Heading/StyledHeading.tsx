@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 import { HeadingProps } from './Heading'
-import { ThemedProps } from '../../theme'
+import { ThemedProps } from '../../themeTypes'
 
 type StyledHeadingProps = Required<HeadingProps>
 type ThemedStyledHeadingProps = ThemedProps<StyledHeadingProps>

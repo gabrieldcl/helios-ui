@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { ThemedProps } from '../../../../theme'
+import { ThemedProps } from '../../../../themeTypes'
 import { ProgressBarProps } from '../../ProgressBar'
 
 type ThemedProgressbarContainer = ThemedProps<ProgressBarProps>

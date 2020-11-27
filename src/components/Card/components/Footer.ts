@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { SimpleThemedProps } from '../../../theme'
+import { SimpleThemedProps } from '../../../themeTypes'
 
 const footerStyle = (props: SimpleThemedProps) => css`
   background-color: ${props.theme.card.footer.backgroundColor};

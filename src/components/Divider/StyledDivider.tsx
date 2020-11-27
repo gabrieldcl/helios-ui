@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { ThemedProps } from '../../theme'
+import { ThemedProps } from '../../themeTypes'
 import { DividerProps } from './Divider'
 
 export type StyledDividerProps = Required<DividerProps>

@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 import { BaseTextAreaProps } from './TextArea'
-import { ThemedProps } from '../../theme'
+import { ThemedProps } from '../../themeTypes'
 
 export type ThemedStyledTextAreaProps = ThemedProps<BaseTextAreaProps>
 

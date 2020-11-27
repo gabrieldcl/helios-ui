@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { ThemedProps } from '../../theme'
+import { ThemedProps } from '../../themeTypes'
 import { TableItemProps } from './TableItem'
 
 export type StyledTableItemProps = Required<TableItemProps>

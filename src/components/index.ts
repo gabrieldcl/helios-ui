@@ -1,5 +1,5 @@
 export * from './Box'
-export * from './ThemeProvider'
+export * from './Helios'
 export * from './Anchor'
 export * from './Badge'
 export * from './Button'

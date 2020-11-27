@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 import { transparentize } from 'polished'
-import { ThemedProps } from '../../theme'
+import { ThemedProps } from '../../themeTypes'
 import { BaseBadgeProps } from './Badge'
 
 type ThemedBadgeProps = ThemedProps<BaseBadgeProps>

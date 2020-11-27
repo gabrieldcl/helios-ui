@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 import { CheckBoxProps } from '../CheckBox'
-import { ThemedProps } from '../../../theme'
+import { ThemedProps } from '../../../themeTypes'
 
 type ThemedCheckBoxContainerProps = ThemedProps<CheckBoxProps>
 

@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { ThemedProps } from '../../../../../theme'
+import { ThemedProps } from '../../../../../themeTypes'
 import { DayCellProps } from './DayCell'
 
 // TODO: Add everything to theme

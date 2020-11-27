@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { ThemedProps } from '../../../../theme'
+import { ThemedProps } from '../../../../themeTypes'
 import { MenuToggleIconContainerProps } from './MenuToggleIconContainer'
 
 type StyledMenuToggleIconContainerProps = ThemedProps<

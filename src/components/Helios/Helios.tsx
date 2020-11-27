@@ -1,13 +1,13 @@
 import React from 'react'
 import { ThemeProvider as StyledComponentsThemeProvider } from 'styled-components'
 import { GlobalStyle } from './components'
-import { Theme } from '../../theme'
+import { Theme } from '../../themeTypes'
 
-interface MutualAppProps {
+interface HeliosProps {
   theme: Theme
 }
 
-export const ThemeProvider: React.FC<MutualAppProps> = (props) => {
+export const Helios: React.FC<HeliosProps> = (props) => {
   return (
     <StyledComponentsThemeProvider theme={props.theme}>
       <GlobalStyle />

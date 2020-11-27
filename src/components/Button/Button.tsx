@@ -1,5 +1,5 @@
 import React, { memo, ReactNode } from 'react'
-import { ButtonSizeKeys } from '../../theme'
+import { ButtonSizeKeys } from '../../themeTypes'
 import { StyledButton } from './StyledButton'
 import { ContentBox, IconContainer } from './components'
 import {

@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 import { TextProps } from './Text'
-import { ThemedProps } from '../../theme'
+import { ThemedProps } from '../../themeTypes'
 
 type StyledTextProps = Required<TextProps>
 type ThemedStyledTextProps = ThemedProps<StyledTextProps>

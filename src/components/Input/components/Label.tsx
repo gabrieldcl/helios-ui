@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { ThemedProps } from '../../../theme'
+import { ThemedProps } from '../../../themeTypes'
 
 export interface LabelProps {
   focus?: boolean

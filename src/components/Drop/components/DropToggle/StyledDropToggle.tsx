@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { ThemedProps } from '../../../../theme'
+import { ThemedProps } from '../../../../themeTypes'
 import { DropToggleProps } from './DropToggle'
 
 type StyledDropToggleProps = ThemedProps<DropToggleProps>

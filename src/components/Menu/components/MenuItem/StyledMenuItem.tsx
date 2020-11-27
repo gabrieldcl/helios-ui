@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components'
 import { darken } from 'polished'
 import { MenuItemProps } from './MenuItem'
-import { ThemedProps } from '../../../../theme'
+import { ThemedProps } from '../../../../themeTypes'
 
 type StyledMenuItemProps = ThemedProps<MenuItemProps>
 

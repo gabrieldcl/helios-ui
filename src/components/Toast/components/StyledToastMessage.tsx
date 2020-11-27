@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { ThemedProps, ToastStatuses } from '../../../theme'
+import { ThemedProps, ToastStatuses } from '../../../themeTypes'
 
 export type ToastMessageProps = {
   status: ToastStatuses

@@ -5,7 +5,7 @@ import {
   ComponentProps,
   StyledProps
 } from '../../typeHelpers'
-import { Sizes } from '../../theme'
+import { Sizes } from '../../themeTypes'
 import { CSSObject } from 'styled-components'
 
 export interface BaseAnchorProps {

@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react'
 import { StyledToast } from './StyledToast'
 import { ComponentPropsWithoutOmit, StyledProps } from '../../typeHelpers'
-import { ToastStatuses } from '../../theme'
+import { ToastStatuses } from '../../themeTypes'
 
 export interface BaseToastProps {
   children: ReactNode

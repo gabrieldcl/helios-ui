@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 import { AnchorProps } from './Anchor'
-import { ThemedProps } from '../../theme'
+import { ThemedProps } from '../../themeTypes'
 
 type ThemedStyledAnchorProps = ThemedProps<AnchorProps>
 

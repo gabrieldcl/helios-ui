@@ -1,4 +1,4 @@
-import { Theme } from './theme'
+import { Theme } from './themeTypes'
 import { StyledComponentProps, CSSObject } from 'styled-components'
 
 export type DefaultProps<
